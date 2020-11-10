@@ -23,7 +23,7 @@ header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  color: hsl(0, 0%, 6%);
 }
 
 .card {
@@ -36,14 +36,6 @@ header {
   margin: 0 auto;
   max-width: 800px;
   padding: 30px 40px;
-}
-
-.card-header::after {
-  content: " ";
-  display: block;
-  width: 100%;
-  background: #e7e9eb;
-  height: 2px;
 }
 
 .card-body {
@@ -60,12 +52,6 @@ header {
   width: 100%;
   background: #e7e9eb;
   height: 2px;
-}
-
-.card-footer::after {
-  content: " ";
-  display: block;
-  clear: both;
 }
 
 .btn {
@@ -111,21 +97,4 @@ button[disabled] {
   border-radius: 6px;
   resize: none;
   overflow: hidden;
-}
-
-@media (max-width: 690px) {
-  .btn {
-    font-size: 1rem;
-    margin: 16px 0px 0px 0px;
-    padding: 10px 15px;
-  }
-  #password {
-    font-size: 1rem;
-  }
-}
-
-@media (max-width: 500px) {
-  .btn {
-    font-size: 0.8rem;
-  }
 }
