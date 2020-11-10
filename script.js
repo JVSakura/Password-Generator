@@ -27,7 +27,7 @@ function generatePassword() {
   let valid = false;
   let passwordLen = 0
   while (!valid) {
-    passwordLen = prompt(`Enter a password length between 8 and 128`);
+    passwordLen = prompt(`Choose a password length between 8 and 128`);
     passwordLen = parseInt(passwordLen)
     if (passwordLen < 8 || passwordLen > 128 || passwordLen === NaN) {
       alert(`Invalid length. Try again.`)
