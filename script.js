@@ -13,7 +13,7 @@ function generatePassword() {
   let numsChar = "0123456789"
   let specialChar = "!@#$%^&*()_+=<>;:[]"
 
-  if (length < 128 || length > 8) {
+  if (length < 129 || length > 7) {
     let newPass = ""
     let newPassChar = ""
     if (upper) {
@@ -36,7 +36,7 @@ function generatePassword() {
     console.log(newPass)
     return newPass
   } else {
-    alert("Incorrect length chosen.")
+    alert("Incorrect Parameters.")
   }
 
 }

@@ -10,7 +10,7 @@ html, body, .wrapper {
 
 body {
   font-family: sans-serif;
-  background-color: #dee3e7;
+  background-color: #f1f4f7;
 }
 
 .wrapper {
@@ -23,15 +23,15 @@ header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: hsl(0, 0%, 6%);
+  color: hsl(0, 4%, 5%);
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 22%, 96%);
   border-radius: 5px;
   border-width: 1px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-  color: hsl(206, 17%, 28%);
+  box-shadow: rgba(10, 10, 10, 0.15) 0px 2px 8px 0px;
+  color: hsl(207, 17%, 23%);
   font-size: 18px;
   margin: 0 auto;
   max-width: 800px;
@@ -56,13 +56,13 @@ header {
 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: rgb(197, 9, 9);
   border-radius: 25px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px 0px;
-  color: hsl(0, 0%, 100%);
+  box-shadow: rgba(5, 5, 5, 0.1) 0px 1px 6px 0px rgba(10, 10, 10, 0.2) 0px 1px 1px 0px;
+  color: hsl(0, 3%, 93%);
   display: inline-block;
-  font-size: 22px;
-  line-height: 22px;
+  font-size: 20px;
+  line-height: 20px;
   margin: 16px 16px 16px 20px;
   padding: 14px 34px;
   text-align: center;
@@ -71,7 +71,7 @@ header {
 
 button[disabled] {
   cursor: default;
-  background: #c0c7cf;
+  background: #ccd3db;
 }
 
 .float-right {
